@@ -1,0 +1,306 @@
+
+.container{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.container img{
+    width: 100%;
+    height: 680px;
+}
+
+/* title  */
+
+.title-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+.title-1 h1{
+    font-size: 80px;
+    color: rgb(3, 3, 46);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+
+.title-1 p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+
+}
+
+
+/* title-1 button  */
+
+.title-1 button{
+    margin-left: 0px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 8px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+/* img 1 cima direita  */
+
+.home-i-1{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    margin-top: 10px;
+    margin-right: 130px;
+}
+
+.home-i-1 img{
+    width: 620px;
+    height: 600px;
+
+}
+
+
+
+
+/* _______________________________________ */
+
+
+.container-cont{
+    width: 100%;
+}
+
+.title-2{
+    margin-top: 120px;
+    margin-left: 90px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.title-2 h1{
+    font-size: 50px;
+    font-family: Verdana, sans-serif;
+}
+
+.title-2 p{
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+ 
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, sans-serif;
+
+}
+
+.button-2 {
+ 
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+
+  }
+  
+  .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+
+
+/* _______________________________________ */
+
+
+.container-exple{
+  width: 100%;
+  height: 400px;
+  background: #ccc;
+  position: relative;
+
+}
+
+
+.title-3 h1{
+
+    padding-top: 45px;
+    margin-left: 90px;
+
+
+    font-size: 30px;
+    font-family: Verdana, sans-serif;
+}
+
+
+.cards-container{
+  margin-top: 40px;
+  margin-left: 120px;
+
+  display: flex;
+
+}
+
+.card{
+  background: #FFFFFF;
+  width: 230px;
+  height: 250px;
+
+  border-radius: 10px;
+  margin-right: 25px;
+  border: 1px solid rgb(189, 189, 189);
+
+}
+
+.card img{
+  width: 180px;
+  height: 180px;
+
+  margin-top: 15px;
+  margin-left: 11%;
+}
+
+.card h2{
+  margin-top: 10px;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
+
+.img-fundo-dir{
+  position: absolute;
+  top: 5;
+  right: 0;
+
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.img-fundo-dir img{
+  width: 500px;
+  height: 444px;
+}
+
+/* _______________________________________ */
+
+
+.container-sobre{
+    height: 200px;
+    margin-top: 220px;
+}
+
+.title-4{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.title-4 h1{
+    font-size: 40px;
+    font-family: Verdana, sans-serif;
+}
+
+
+.container-perfil{
+  margin: 0 auto;
+  width: 900px;
+  height: 200px;
+ 
+  text-align: center;
+  display: flex;
+
+  margin-bottom: 120px;
+}
+
+.card-perfil{
+  margin: auto;
+}
+
+.card-perfil img{
+  width: 200px;
+  height: 200px;
+  
+  border: 1px solid #ccc;
+ 
+  border-radius: 50%;
+
+}
+
+
+/* _______________________________________ */
+
+
+
+.fundo-perfil{
+  height: 250px;
+  background: rgb(226, 226, 226);
+  
+}
+
+
+.container-rodape{
+
+  height: 70px;
+  margin-top: 200px;
+
+  border-top: 1px solid #ccc;
+
+  display: flex;
+}
+
+.container-rodape h3{
+  margin-top:  25px;
+  margin-left: 10px;
+}
+
+
+.container-rodape img {
+  margin-left: 25px;
+  border-right:  1px solid #ccc;
+  padding-right: 24px;
+}

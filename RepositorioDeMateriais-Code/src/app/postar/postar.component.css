@@ -1,0 +1,142 @@
+.container{
+  width: 1000px;
+  height: 500px;
+
+  margin: 0 auto;
+  margin-right: 160px;
+
+  margin-top: 70px;
+} 
+
+select:hover{
+  -webkit-appearance: none;
+}
+
+select{
+  border-radius: 5px;
+}
+
+.cont-select{
+  background: rgb(91, 91, 248);
+  box-sizing: border-box;
+  height: 70px;
+}
+
+.cont-select select{
+  margin-top: 20px;
+
+  margin-right: 60px;
+  margin-left: 70px;
+  width: 200px;
+  height: 30px;
+
+  background:white;
+  color: black;
+  font-size: 20px;
+
+  padding-left: 10px;
+}
+
+
+.text{
+
+  height: 250px;
+}
+
+.title-post input{
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+
+  width: 95%;
+  height: 50px;
+  background: white;
+
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+
+  color: black;
+  font-size: 17px;
+}
+
+.disc-post textarea{
+  margin-left: 20px;
+  background: white;
+  border: 1px solid #ccc;
+
+  width: 95%;
+  height: 120px;
+  font-size: 17px;
+  padding: 5px;
+
+  border-radius: 5px;
+  resize: none;
+}
+
+
+
+
+input{
+  color: transparent;
+}
+input[type="file"] {
+  display: none;
+}
+
+
+.cartaz {
+
+  width: 95%;
+  height: 130px;
+  margin-left: 20px;
+
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.icon-arc {
+  margin: 5px;
+  float: left;
+  width: 180px;
+  margin-top: 15px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.icon-arc:hover {
+ cursor: pointer;
+}
+
+.icon-arc img {
+  width: 70px;
+  height: auto;
+}
+
+.desc p {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+
+.button{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.button button{
+  width: 240px;
+  height: 40px;
+
+  border-radius: 5px;
+  background:rgb(91, 91, 248);
+  color: white;
+
+  font-size: 20px;
+  cursor: pointer;
+}

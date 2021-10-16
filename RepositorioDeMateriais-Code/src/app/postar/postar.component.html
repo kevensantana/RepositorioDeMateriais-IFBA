@@ -1,0 +1,74 @@
+<div class="container">
+  
+  <form [formGroup]="formPostar" (ngSubmit)="onSubmit()">
+    
+  <div class="cont-select">
+    <select class="select" id="departamento" formControlName="departamento">
+      <option selected disabled>Departamento</option>
+      <option value="1">Humanas</option>
+      <option value="2">Exatas</option>
+      <option value="3">Linguágens</option>
+      <option value="4">Técnicas</option>
+    </select>
+
+    <select id="disciplina" formControlName="disciplina">
+      <option selected disabled>Disciplina</option>
+      <option value="1">Sociologia</option>
+      <option value="2">Filosofia</option>
+      <option value="3">História</option>
+      <option value="4">Geografia</option>
+    </select>
+
+    <select id="assunto" formControlName="assunto">
+        <option selected disabled>Assunto</option>
+        <option value="1" >Capitalismo</option>
+        <option value="2">Comunismo</option>
+        <option value="3">Segunda Guerra Mundial</option>
+        <option value="4">Industrialização</option>
+      </select>
+  </div>
+  
+  
+    <div  class="text">
+      <div class="form-group" class="title-post">
+        <input class="form-control" type="text" formControlName="titulo" id="titulo" placeholder="Título da Postagem">
+      </div>
+      <div class="disc-post">
+        <textarea type="text" id="descricao" ngformControlName="descricao" placeholder="Descrição da Postagem"></textarea>
+      </div>
+    </div>
+    
+    
+    <!-- COM BD -->
+    <div class="cartaz">
+      <div class="icon-arc">
+        <label class="desc">
+          <img src="https://image.flaticon.com/icons/png/512/14/14862.png">
+            <input type="file"  value="Arquivo"/>
+            <p>APOSTILAS</p>
+        </label>
+      </div>
+      <div class="icon-arc">
+        <label class="desc">
+          <img src="https://image.flaticon.com/icons/png/512/14/14862.png">
+          <input type="file" value="Arquivo"/>
+          <p>EXERCÍCIOS</p>
+        </label>
+      </div>
+      <div class="icon-arc">
+        <label class="desc">
+          <img src="https://image.flaticon.com/icons/png/512/14/14862.png">
+          <input type="file" id="myfile" name="Arquivo">
+          <p>LINKS</p>
+        </label>
+      </div>
+    </div>
+
+    <div class="button">
+      <button type="submit">Enviar</button>
+    </div>
+  </form>
+  </div>
+
+ 
+  

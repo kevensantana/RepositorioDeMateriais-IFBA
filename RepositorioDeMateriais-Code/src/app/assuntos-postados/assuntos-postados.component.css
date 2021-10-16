@@ -1,0 +1,71 @@
+.container {
+  width: 1000px;
+  height: 900px;
+
+  margin: 0 auto;
+  margin-right: 160px;
+  margin-top: 70px;
+}
+
+
+.row{
+  width: 100%;
+  background: rgb(91, 91, 248);
+  box-sizing: border-box;
+
+  height: 70px;
+  color: white;
+  padding: 15px;
+}
+
+
+.banner{
+    background: white;
+    margin-top:80px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.pdf h2{
+    margin-bottom: 15px;
+}
+
+.pdf button{
+    background: #ccc;
+    height: 30px;
+    width: 98%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.pdf span{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+
+.cartaz h2{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}

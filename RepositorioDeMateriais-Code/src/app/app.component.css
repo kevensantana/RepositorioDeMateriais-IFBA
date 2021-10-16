@@ -1,0 +1,89 @@
+.barra-superior {
+  background:#1f2af0;
+  width: 100%;
+  height: 60px;
+
+
+  display: flex;
+}
+
+/* icon */
+
+.icon-notificacao  {
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  top: 14px;
+  left: 92%;
+  cursor: pointer;
+}
+
+.icon-perfil  {
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  top: 14px;
+  left: 96%;
+  cursor: pointer;
+}
+
+.icon-logo img{
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 10px;
+  left: 30px;
+  cursor: pointer;
+}
+
+
+
+.container {
+  width: 650px;
+  margin-left: 1%;
+  padding-top: 23px;
+}
+
+.container a {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 18px;
+  cursor: pointer;
+}
+
+.container a:visited {
+  color: #fff;
+}
+
+a:hover {
+	background:rgb(68, 0, 255);
+  border-radius: 5px 5px 0px 0px;
+
+  padding-top: 1px;
+  color: #fff;
+
+}
+
+.busca{
+  display: flex;
+  margin-left: 12%;
+  margin-top: 18px;
+}
+
+.busca input {
+  width: 300px;
+  height: 10px;
+
+  padding: 9.8px;
+  font-size: 17px;
+
+  border: 1px solid grey;
+  background: #f1f1f1;
+  border-right: none;
+  border-radius: 5px 0 0 5px ;
+  border: none;
+}
+
+
+
+

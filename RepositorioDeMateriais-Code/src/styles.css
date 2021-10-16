@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+::-webkit-scrollbar { 
+  display: none; 
+}
+
+  /* menu retrail lateral */
+body {
+  background-color: #ffffff;
+  overflow-X: hidden;
+}
+
